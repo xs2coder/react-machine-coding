@@ -24,8 +24,10 @@
   },
   "homepage": "https://github.com/xs2coder/react-machine-coding#readme",
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.7",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
     "vite": "^6.3.5"
