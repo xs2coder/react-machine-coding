@@ -1,0 +1,33 @@
+{
+  "name": "react-machine-coding",
+  "version": "1.0.0",
+  "description": "React Machine Codeing Challenges",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xs2coder/react-machine-coding.git"
+  },
+  "keywords": [
+    "react",
+    "machine",
+    "coding"
+  ],
+  "author": "Gurinderdeep Sohi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xs2coder/react-machine-coding/issues"
+  },
+  "homepage": "https://github.com/xs2coder/react-machine-coding#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
