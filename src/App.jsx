@@ -2,10 +2,11 @@ import React from "react";
 import { useHashRouteComponent } from './logic/useCustomHashRouter';
 import { Carousel } from "./challenges/Carousel";
 import { Typeahead } from "./challenges/Typeahead";
-
+import { Accordion } from "./challenges/Accordion";
 const routes = {
     '#Carousel': Carousel,
-    '#Typeahead': Typeahead
+    '#Typeahead': Typeahead,
+    '#Accordion': Accordion
 }
 
 export const App = () => {
@@ -18,6 +19,7 @@ export const App = () => {
                 <ul className="flex flex-row gap-5">
                     <li><a href="#Carousel">Carousel</a></li>
                     <li><a href="#Typeahead">Typeahead</a></li>
+                    <li><a href="#Accordion">Accordion</a></li>
                 </ul>
             </header>
             <Component/>
