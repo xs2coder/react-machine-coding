@@ -3,10 +3,13 @@ import { useHashRouteComponent } from './logic/useCustomHashRouter';
 import { Carousel } from "./challenges/Carousel";
 import { Typeahead } from "./challenges/Typeahead";
 import { Accordion } from "./challenges/Accordion";
+import { Dropdown } from "./challenges/Dropdown";
+
 const routes = {
     '#Carousel': Carousel,
     '#Typeahead': Typeahead,
-    '#Accordion': Accordion
+    '#Accordion': Accordion,
+    '#Dropdown': Dropdown
 }
 
 export const App = () => {
@@ -20,6 +23,7 @@ export const App = () => {
                     <li><a href="#Carousel">Carousel</a></li>
                     <li><a href="#Typeahead">Typeahead</a></li>
                     <li><a href="#Accordion">Accordion</a></li>
+                    <li><a href="#Dropdown">Dropdown</a></li>
                 </ul>
             </header>
             <Component/>
