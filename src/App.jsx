@@ -4,12 +4,14 @@ import { Carousel } from "./challenges/Carousel";
 import { Typeahead } from "./challenges/Typeahead";
 import { Accordion } from "./challenges/Accordion";
 import { Dropdown } from "./challenges/Dropdown";
+import TabsDemo from "./challenges/Tabs";
 
 const routes = {
     '#Carousel': Carousel,
     '#Typeahead': Typeahead,
     '#Accordion': Accordion,
-    '#Dropdown': Dropdown
+    '#Dropdown': Dropdown,
+    '#TabsDemo': TabsDemo
 }
 
 export const App = () => {
@@ -24,6 +26,7 @@ export const App = () => {
                     <li><a href="#Typeahead">Typeahead</a></li>
                     <li><a href="#Accordion">Accordion</a></li>
                     <li><a href="#Dropdown">Dropdown</a></li>
+                    <li><a href="#TabsDemo">Tabs</a></li>
                 </ul>
             </header>
             <Component/>
