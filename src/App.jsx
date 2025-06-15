@@ -5,13 +5,15 @@ import { Typeahead } from "./challenges/Typeahead";
 import { Accordion } from "./challenges/Accordion";
 import { Dropdown } from "./challenges/Dropdown";
 import TabsDemo from "./challenges/Tabs";
+import ProgressBarDemo from "./challenges/ProgressBar";
 
 const routes = {
     '#Carousel': Carousel,
     '#Typeahead': Typeahead,
     '#Accordion': Accordion,
     '#Dropdown': Dropdown,
-    '#TabsDemo': TabsDemo
+    '#TabsDemo': TabsDemo,
+    '#ProgressBar': ProgressBarDemo
 }
 
 export const App = () => {
@@ -27,6 +29,7 @@ export const App = () => {
                     <li><a href="#Accordion">Accordion</a></li>
                     <li><a href="#Dropdown">Dropdown</a></li>
                     <li><a href="#TabsDemo">Tabs</a></li>
+                    <li><a href="#ProgressBar">Progress Bar</a></li>
                 </ul>
             </header>
             <Component/>
