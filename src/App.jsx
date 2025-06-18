@@ -6,6 +6,7 @@ import { Accordion } from "./challenges/Accordion";
 import { Dropdown } from "./challenges/Dropdown";
 import TabsDemo from "./challenges/Tabs";
 import ProgressBarDemo from "./challenges/ProgressBar";
+import StarRatingDemo from "./challenges/StarRating";
 
 const routes = {
     '#Carousel': Carousel,
@@ -13,7 +14,8 @@ const routes = {
     '#Accordion': Accordion,
     '#Dropdown': Dropdown,
     '#TabsDemo': TabsDemo,
-    '#ProgressBar': ProgressBarDemo
+    '#ProgressBar': ProgressBarDemo,
+    '#StarRating': StarRatingDemo
 }
 
 export const App = () => {
@@ -30,6 +32,7 @@ export const App = () => {
                     <li><a href="#Dropdown">Dropdown</a></li>
                     <li><a href="#TabsDemo">Tabs</a></li>
                     <li><a href="#ProgressBar">Progress Bar</a></li>
+                    <li><a href="#StarRating">Star Rating</a></li>
                 </ul>
             </header>
             <Component/>
