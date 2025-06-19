@@ -7,6 +7,7 @@ import { Dropdown } from "./challenges/Dropdown";
 import TabsDemo from "./challenges/Tabs";
 import ProgressBarDemo from "./challenges/ProgressBar";
 import StarRatingDemo from "./challenges/StarRating";
+import ToastDemo from "./challenges/Toast";
 
 const routes = {
     '#Carousel': Carousel,
@@ -15,7 +16,8 @@ const routes = {
     '#Dropdown': Dropdown,
     '#TabsDemo': TabsDemo,
     '#ProgressBar': ProgressBarDemo,
-    '#StarRating': StarRatingDemo
+    '#StarRating': StarRatingDemo,
+    '#Toast': ToastDemo
 }
 
 export const App = () => {
@@ -33,6 +35,7 @@ export const App = () => {
                     <li><a href="#TabsDemo">Tabs</a></li>
                     <li><a href="#ProgressBar">Progress Bar</a></li>
                     <li><a href="#StarRating">Star Rating</a></li>
+                    <li><a href="#Toast">Toast</a></li>
                 </ul>
             </header>
             <Component/>
