@@ -8,6 +8,7 @@ import TabsDemo from "./challenges/Tabs";
 import ProgressBarDemo from "./challenges/ProgressBar";
 import StarRatingDemo from "./challenges/StarRating";
 import ToastDemo from "./challenges/Toast";
+import ModalDemo from "./challenges/ModalDialog";
 
 const routes = {
     '#Carousel': Carousel,
@@ -17,7 +18,8 @@ const routes = {
     '#TabsDemo': TabsDemo,
     '#ProgressBar': ProgressBarDemo,
     '#StarRating': StarRatingDemo,
-    '#Toast': ToastDemo
+    '#Toast': ToastDemo,
+    '#Modal': ModalDemo,
 }
 
 export const App = () => {
@@ -36,6 +38,7 @@ export const App = () => {
                     <li><a href="#ProgressBar">Progress Bar</a></li>
                     <li><a href="#StarRating">Star Rating</a></li>
                     <li><a href="#Toast">Toast</a></li>
+                    <li><a href="#Modal">Modal Dialog</a></li>
                 </ul>
             </header>
             <Component/>
