@@ -9,6 +9,7 @@ import ProgressBarDemo from "./challenges/ProgressBar";
 import StarRatingDemo from "./challenges/StarRating";
 import ToastDemo from "./challenges/Toast";
 import ModalDemo from "./challenges/ModalDialog";
+import ToggleSwitchDemo from "./challenges/ToggleSwitch";
 
 const routes = {
     '#Carousel': Carousel,
@@ -20,6 +21,7 @@ const routes = {
     '#StarRating': StarRatingDemo,
     '#Toast': ToastDemo,
     '#Modal': ModalDemo,
+    '#ToggleSwitch': ToggleSwitchDemo
 }
 
 export const App = () => {
@@ -39,6 +41,7 @@ export const App = () => {
                     <li><a href="#StarRating">Star Rating</a></li>
                     <li><a href="#Toast">Toast</a></li>
                     <li><a href="#Modal">Modal Dialog</a></li>
+                    <li><a href="#ToggleSwitch">Toggle Switch</a></li>
                 </ul>
             </header>
             <Component/>
